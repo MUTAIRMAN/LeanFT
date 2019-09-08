@@ -48,6 +48,18 @@
                         </properties>
                     </identification>
                 </object>
+                <object type="Image" technology="Web">
+                    <name>Google1</name>
+                    <codeName>GoogleImage1</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="Alt" type="string" isRegExp="false">Google</property>
+                            <property name="TagName" type="string" isRegExp="false">IMG</property>
+                            <property name="Type" type="enum" isRegExp="false">Normal</property>
+                        </properties>
+                    </identification>
+                </object>
             </children>
         </object>
     </objects>

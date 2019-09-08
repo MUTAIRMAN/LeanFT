@@ -44,6 +44,7 @@ public class LeanFtTest extends UnitTestClassBase {
     public void test() throws GeneralLeanFtException {
         Mu model1 = new Mu(b);
         model1.GooglePage().SearchEditField().setValue("Muthukumar");
+     	model1.GooglePage().GoogleImage1().exists();
     	model1.GooglePage().GoogleSearchButton().click();
     	model1.GooglePage().GoogleImage().exists();
     }
