@@ -45,8 +45,10 @@ public class LeanFtTest extends UnitTestClassBase {
         Mu model1 = new Mu(b);
         model1.GooglePage().SearchEditField().setValue("Muthukumar");
      	model1.GooglePage().GoogleImage1().exists();
+     	model1.GooglePage().IMFeelingLuckyButton().exists();
     	model1.GooglePage().GoogleSearchButton().click();
     	model1.GooglePage().GoogleImage().exists();
+    	
     }
 
 }

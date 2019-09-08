@@ -60,6 +60,21 @@
                         </properties>
                     </identification>
                 </object>
+                <object type="Button" technology="Web">
+                    <name>I'm Feeling Lucky</name>
+                    <codeName>IMFeelingLuckyButton</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityName" type="string" isRegExp="false">I'm Feeling Lucky</property>
+                            <property name="ButtonType" type="string" isRegExp="false">submit</property>
+                            <property name="Name" type="string" isRegExp="false">I'm Feeling Lucky</property>
+                            <property name="Role" type="string" isRegExp="false"></property>
+                            <property name="TagName" type="string" isRegExp="false">INPUT</property>
+                        </properties>
+                        <index>1</index>
+                    </identification>
+                </object>
             </children>
         </object>
     </objects>
